@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>"Gran Hotel Villa Del Sur"</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <img src="/img/logo.png" alt="logo" class="logo">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Servicio</a>
+            <a href="#">Promociones</a>
+            <button class="btn">Contáctanos</button>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="fotografias">
+            <div foto>
+                <img class="img" src="/img/villa2.jpg" alt="img1">
+            </div>
+            <div class="foto2">
+                <img class="img2" src="/img/villa.jpg" alt="img2">
+            </div>
+        </div>
+        <div class="titulo">
+            <h1 class="villadelsur">Gran Hotel Villa Del Sur</h1>
+        </div>
+    </section>
+    <section>
+        <form action="/guardar" method="POST">
+            <div>
+                <h1 class="reserva">Reserva tu Cita</h1>
+            </div>
+            <div class="datos">
+                <label for="nombres">Nombre:</label>
+                <input type="text" id="nombres" name="nombres" placeholder="Escribe tu nombre" required>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="Escribe tu correo" required>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono" required>
+                <label for="fecha_de_nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha_de_nacimiento" name="fecha_de_nacimiento" required>
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" placeholder="Escribe tu dirección" required>
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" name="dni" placeholder="Escribe tu DNI" required>
+                <div>
+                    <button class="botone" type="submit">Reservar</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="descuentos">
+        <div class="ofertas">
+            <h2 class="of">Ofertas y Descuentos</h2>
+            <div>
+                <img class="publicidad" src="/img/publicidad.jpg" alt="Publicidad">
+            </div>
+            <div class="promocion">
+                <h3>✨ ¡Celebra Fiestas Patrias en Gran Hotel Villa del Sur! 🎉🏨</h3>
+                <p>Este feriado largo de Fiestas Patrias, escápate a Gran Hotel Villa del Sur y disfruta de una
+                    experiencia vacacional inolvidable. Rodeado de belleza natural y con las mejores instalaciones, nuestro hotel es
+                    el destino perfecto para celebrar la grandeza de nuestro país.</p>
+                <h4>Detalles de la Oferta:</h4>
+                <li>📅 Fechas: Aprovecha el feriado largo de Fiestas Patrias</li>
+                <li>📍 Ubicación: Gran Hotel Villa del Sur</li>
+                <li>💰 Tarifas Especiales: Consulta nuestras ofertas exclusivas para estas fechas.</li>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <img class="imgg" src="/img/logo.png" alt="logo">
+    <h1>"Gran Hotel Villa Del Sur"</h1>
+    <h2>Información y reservas:</h2>
+    <div class="info">
+        <li>Cel: 940482714</li>
+        <li>Telef: 01 2847711.</li>
+        <li><a href="https://www.facebook.com/ghvilladelsur/?locale=es_LA">Facebook</a></li>
+    </div>
+</footer>
+
+</html>
